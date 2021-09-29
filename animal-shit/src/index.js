@@ -29,9 +29,6 @@ export default (data) => {
 
           // commands
           switch (command) {
-            case 'test':
-              setContent('test worked')
-              break;
             case 'setprefix':
               if (messageArgs.length !== 1) {
                 setContent('No spaces allowed')
